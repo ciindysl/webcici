@@ -11,9 +11,14 @@ body {
     color: #333;
     text-align: center;
 }
+ .author {
+    font-size: 2.5rem;
+    animation: slideIn 1s ease forwards; /* Slide-in animation for heading */
+}
+
 
 .hero {
-    background: linear-gradient(135deg, #282c34, #61dafb);
+    background: linear-gradient(135deg, #282c34, #c75d92);
     color: white;
     padding: 50px 0;
     animation: fadeIn 1s ease-in-out; /* Fade-in animation for hero */
@@ -46,7 +51,7 @@ h1 {
 button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #61dafb;
+    background-color: #ce7eb6;
     color: #fff;
     border: none;
     border-radius: 5px;
